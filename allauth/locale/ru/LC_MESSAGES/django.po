@@ -517,11 +517,13 @@ msgid "or"
 msgstr "или"
 
 #: templates/account/login.html:30
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "If you have not created an account yet, then please\n"
 "<a href=\"%(signup_url)s\">sign up</a> first."
-msgstr "Уже зарегистрированы? <a href=\"%(signup_url)s\">Войдите</a>."
+msgstr ""
+"Если у вас нет аккаунта, пожалуйста,\n"
+"<a href=\"%(signup_url)s\">зарегистрируйтесь</a>."
 
 #: templates/account/login.html:40
 msgid "Forgot Password?"
